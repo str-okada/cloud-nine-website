@@ -59,7 +59,7 @@
     </section>
     <section class="page-section about-heading">
         <div class="container">
-            <img class="img-fluid rounded about-heading-img mb-3 mb-lg-0" src="<?php echo $img[0];?>" alt="..." />
+            <img class="img-fluid rounded about-heading-img mb-3 mb-lg-0" src="<?php echo $img[0]; ?>" alt="cloud9" />
             <div class="about-heading-content">
                 <div class="row">
                     <div class="col-xl-9 col-lg-10 mx-auto">
@@ -68,11 +68,11 @@
                                 <span class="section-heading-upper">体験レッスンの詳細</span>
                                 <span class="section-heading-lower">見学だけもOK</span>
                             </h2>
-                            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aut fugiat suscipit odio molestias voluptate sit minus inventore commodi, illo ipsam dolorum odit laudantium distinctio omnis ipsa sequi dolorem maxime quod.</p>
+                            <p>
+                                メンバーはそれぞれの日々のスキルアップに励み、一つのステージで輝きを放っています。私たちのパフォーマンスは、ダイナミックなリズムと華麗なムーブメントが織りなすエンターテイメントです。躍動感溢れる演技は観客を魅了し、音楽と一体となって心を揺さぶります。
+                            </p>
                             <p class="mb-0">
-                                We guarantee that you will fall in
-                                <em>lust</em>
-                                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aut fugiat suscipit odio molestias voluptate sit minus inventore commodi, illo ipsam dolorum odit laudantium distinctio omnis ipsa sequi dolorem maxime quod.
+
                             </p>
                         </div>
                     </div>

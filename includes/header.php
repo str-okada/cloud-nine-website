@@ -14,7 +14,11 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav mx-auto">
                 <?php foreach ($menu_items as $item) : ?>
-                    <li class="nav-item px-lg-4"><a class="nav-link text-uppercase" href="<?php echo $item->url;?>"><?php echo $item->title;?></a></li>
+                    <li class="nav-item px-lg-4">
+                        <a class="nav-link text-uppercase" href="<?php echo $item->url; ?>">
+                            <?php echo $item->title; ?>
+                        </a>
+                    </li>
                 <?php endforeach ?>
             </ul>
         </div>
