@@ -18,3 +18,4 @@ function get_thumbnails(){
 
     return $img;
 };
+

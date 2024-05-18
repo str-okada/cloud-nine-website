@@ -9,13 +9,12 @@
 
     <header>
         <h1 class="site-heading text-center text-faded d-none d-lg-block">
-            <span class="site-heading-upper text-primary mb-3">Cloud9について</span>
-            <span class="site-heading-lower">About us</span>
+            <span class="site-heading-upper text-primary mb-3">イベント</span>
+            <span class="site-heading-lower">活動内容</span>
         </h1>
     </header>
 
     <?php get_template_part('includes/header'); ?>
-
 
     <?php
     $args = array(
@@ -36,7 +35,7 @@
     ?>
             <?php $img = get_thumbnails(); ?>
             <section class="page-section">
-                <div class="container">
+                <div class="container events-link">
                     <div class="product-item">
                         <div class="product-item-title d-flex">
                             <div class="bg-faded p-5 d-flex me-auto rounded">
@@ -59,7 +58,6 @@
                                 <p class="mb-0">
                                     <?php the_content(); ?>
                                 </p>
-
                             </div>
                         </div>
                     </div>
